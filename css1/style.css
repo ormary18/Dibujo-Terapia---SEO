@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner__descripcion{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  color: black;
+  background: bisque;
+  font-family: "Dancing", "pacifico";
+}
+
+body{
+    font-family: "dancing", "pacifico";
+    font-size: 1.2mm;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+    
+}
+
+@keyframes un_efecto{
+  0%{ 
+    width: 100px;
+   }
+
+   50%{
+     background-color: yellow;
+   }
+
+  100% { 
+    width: 200px;
+    background-color: wheat;
+  } 
+}
+
+
+
+.button__main{
+    background: white ;
+    border: none;
+    padding: 12px;
+    color: black;
+    font-size: 20px;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+  }
+
+
+  
+  .button__main:hover{
+    border: 2px solid white;
+    background: none;
+    animation: un_efecto 1s linear 0s infinite;
+    
+  }
+
+
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .detalle{
+    font-size: 15px;
+  }
+
+  .footer{
+    background: wheat;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 5mm;
+    
+}
+
+.html{
+    height: 100%;
+
+}
+
+.historia h2{
+font-size: 10mm;
+}
+
+.banner2{
+    height: 50vh;
+    position: relative;
+    background: url(../imagenes/banner2.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+  }
+  
+  .banner2 h1{
+    font-size: 28px;
+  }
+  
+  .banner2__descripcion{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+
+  .banner3{
+    height: 50vh;
+    position: relative;
+    background: url(../imagenes/dibujolibre.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+  }
+  
+  .banner3 h1{
+    font-size: 28px;
+  }
+  
+  .banner3__descripcion{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+  
+  .banner4{
+    height: 50vh;
+    position: relative;
+    background: url(../imagenes/dibujo2.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+  }
+  
+  .banner4 h1{
+    font-size: 28px;
+  }
+  
+  .banner4__descripcion{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+
+ .formulario{
+   font-size: 5mm;
+   border-radius: 2px;
+
+ }
+  
+.logo-compañia {
+    display: flex;
+    width: 50%;
+    height: 350px;
+    justify-content: left;
+
+}
+.mapa h2{
+  color: black;
+  font-size: 30px;
+}
+
+.mapa p{
+  color: black;
+  font-size: 20px;
+}
+
+.mapa{
+  text-align: center;
+}
+
+.mapa-item{
+  margin: 20px;
+
+}
+
+.nav-tabs {
+  background-image: linear-gradient(wheat, pink);
+
+ }
+
+.navbar-brand:hover{
+    background-color:white;
+    transition: 0.5s;
+
+}
+
+.texto-inicio{
+  text-align: center;
+    display: flex;
+      justify-content: center;
+      background-image:linear-gradient( white, wheat, pink) ;
+      font-size: 4.5mm;
+}
+
+.row{
+  background-image:linear-gradient( white, wheat, pink)
+}
