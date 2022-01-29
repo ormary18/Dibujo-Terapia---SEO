@@ -10,7 +10,7 @@
   font-size: 15px;
   color: black;
   background: bisque;
-  font-family: "Dancing", "pacifico";
+  font-family:'Times New Roman', Times, serif;
 }
 
 body{
@@ -94,7 +94,7 @@ font-size: 10mm;
 .banner2{
     height: 50vh;
     position: relative;
-    background: url(../imagenes/banner2.jpg);
+    background: url(../imagenes/Portada.jpg);
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
@@ -157,11 +157,6 @@ font-size: 10mm;
     text-align: center;
   }
 
- .formulario{
-   font-size: 5mm;
-   border-radius: 2px;
-
- }
   
 .logo-compañia {
     display: flex;
@@ -211,3 +206,117 @@ font-size: 10mm;
 .row{
   background-image:linear-gradient( white, wheat, pink)
 }
+
+#slider-home {
+	margin-bottom: 50px;
+}
+.carousel-caption {
+	background-color: rgba(41, 23, 1, 0.75);
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 30px 45px;
+	text-align: left;
+	width: 340px;
+}
+
+	.carousel-caption p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.carousel-caption .h4 {
+		font-size: 20px;
+		margin-bottom: 30px;
+		margin-top: 8px;
+	}
+
+	.carousel-caption img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.carousel-caption a {
+		border-radius: 0;
+		font-weight: bold;
+		color: #291701;
+		border: none;
+	}
+
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+    
+    .fab:hover {
+    opacity: 0.7;
+    }
+    
+    .fa-whatsapp {
+    background: #45bbff;
+    color: white;
+    }
+
+    .templatemo_contacttitle {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+  }
+  
+  .templatemo_sub_contacttitle {
+      width: 100%;
+      font-size: 22px;
+      color: #91bf24;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  
+  .templatemo_contact {
+      margin: 30px;
+      width: 100%;
+      margin-left: 15%;
+  }
+  
+  .templatemo_contactform input, textarea {
+      width: 100%;
+      background: #282828;
+      border: 1px solid #393939;
+      padding: 7px 10px;
+      margin: 0px 0px 10px 0px;
+      background-color: #FAFAFA;
+  }
+  
+  .templatemo_contactform textarea {
+      height: 100px;
+  }
+  
+  
+  .templatemo_contactform .btn-primary {
+      background: #92bf24;
+      border: none;
+      border-radius: 0px;
+      color: #3d5602;
+      font-weight: 800;
+  }
+  
+  .templatemo_contactform .btn-primary:hover {
+      background: #a6d82c;
+  }
+
+  
+

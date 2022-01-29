@@ -27,7 +27,7 @@
     <div class="grid-container">
         <header class="header">
             <div class="header-contenido">
-                <img class="logo-compañia navbar-link" src="../imagenes/Logo-02-2.jpg">
+                <img class="logo-compañia navbar-link" src="../imagenes/Logo-02 (2).png">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Index</a>
@@ -48,98 +48,58 @@
 
             </div>
         </header>
-        <div class="formulario">
+        <div class=formulario>
+            <div class="row">
+                <div id="templatemo_contact" class="col-md-4 gallery-contact"></div>
+                <div class="col-md-8 templatemo_contactform">
+                    <div class="templatemo_contacttitle">CONTACTO</div>
+                    <div class="templatemo_sub_contacttitle">Importante</div>
+                    <p> Deja tu mensaje, y en breve seras atendido</p>
 
-            <form>
-                <fieldset>
-                    <legend>Formulario de Contacto</legend>
+                    <form action="enviar.php" method="post">
+                        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                        <div class="clear"></div>
+                        <div class="col-md-8">
+                            <button type="submit" class="btn btn-primary">ENVIAR </button>
+                        </div>
+                    </form>
+                </div>
 
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputnombre">Nombre</label>
-                            <input type="nombre" class="form-control" id="inputnombre" placeholder="Nombre">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputapellido">Apellido</label>
-                            <input type="apellido" class="form-control" id="inputapellido" placeholder="Apellido">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Dirección</label>
-                        <input type="text" class="form-control" id="inputAddress"
-                            placeholder="Avenida Domingo Díaz, Panamá, Panamá">
-                        <input type="text" class="form-control" id="inputAddress"
-                            placeholder="apartamento, casa o piso">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>Argentina</option>
-                                <option>Colombia</option>
-                                <option>Costa Rica</option>
-                                <option>Estados Unidos</option>
-                                <option>Panama</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Check me out
-                            </label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-            </form>
+            </div>
 
-            </fieldset>
+            <section class="section">
+
+                <h1>Estamos Ubicados en:</h1>
+
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15763.297500039811!2d-79.515306!3d8.9883029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x632b398b17ae85d9!2sP.H.%20Metric!5e0!3m2!1ses-419!2sar!4v1641773412620!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+                </div>
+
+            </section>
+
+
+            <section class="banner2">
+                <div class="banner2__descripcion">
+                    <h1>Contactanos</h1>
+                    <input type="button" value="Empezar" class="button__banner">
+
+                </div>
+
+            </section>
         </div>
-        <section class="section">
-
-            <h1>Estamos Ubicados en:</h1>
-
-            <div class="mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15763.297500039811!2d-79.515306!3d8.9883029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x632b398b17ae85d9!2sP.H.%20Metric!5e0!3m2!1ses-419!2sar!4v1641773412620!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-            </div>
-
-        </section>
-
-
-        <section class="banner2">
-            <div class="banner2__descripcion">
-                <h1>Contactanos</h1>
-                <input type="button" value="Empezar" class="button__banner">
-
-            </div>
-
-        </section>
-
 
         <footer class="footer">
             <p>"Mi pagina, todos los derechos son reservados"</p>
+            <a href="https://wa.me/+50762019796/?text=Hola%20%20¿En%20que%20te%20podemos%20ayudar?" target="_blank">
+                <img src="../imagenes/logo-wasap.png" width="50" height="50">
+            </a>
 
         </footer>
 

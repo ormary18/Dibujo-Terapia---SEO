@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+body{
+  background-image:linear-gradient( white, wheat, pink);
+}
 h1 {
   color: black;
   background-image: -webkit-gradient(linear, left top, left bottom, from(wheat), to(pink));
@@ -28,7 +32,9 @@ ul {
 }
 
 ul li {
-  display: inline-block;
+  float: right;
+  list-style-type: none;
+  text-align: left;
 }
 
 ul li a {
@@ -37,6 +43,9 @@ ul li a {
   padding: 20px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(wheat), to(pink));
   background-image: linear-gradient(wheat, pink);
+  float: right;
+  list-style-type: none;
+  text-align: left;
 }
 
 footer {
